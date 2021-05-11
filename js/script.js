@@ -75,7 +75,7 @@ const menu = [
     {
         "id": 9,
         "title": "Apricot Halves",
-        "category": "dessert",
+        "category": "desserts",
         "price": 0.80,
         "img": "images/dessert-1.JPG",
         "desc": "Available In Juice"
@@ -84,7 +84,7 @@ const menu = [
     {
         "id": 10,
         "title": "Mandarin Segments",
-        "category": "dessert",
+        "category": "desserts",
         "price": 0.85,
         "img": "images/dessert-2.JPG",
         "desc": "Available In Juice"
@@ -93,7 +93,7 @@ const menu = [
     {
         "id": 11,
         "title": "Apricot Halves",
-        "category": "dessert",
+        "category": "desserts",
         "price": 1.00,
         "img": "images/dessert-3.JPG",
         "desc": "Available In Juice"
@@ -102,7 +102,7 @@ const menu = [
     {
         "id": 12,
         "title": "Chocolate Cake",
-        "category": "dessert",
+        "category": "desserts",
         "price": 1.75,
         "img": "images/dessert-4.JPG",
         "desc": "Rich Chocolate Sponge with a Smooth Milk Chocolate Ganache Buttercream Filling"

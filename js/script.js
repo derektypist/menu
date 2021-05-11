@@ -112,7 +112,6 @@ const menu = [
 // Get Parent Element
 const sectionCenter = document.querySelector('.section-center');
 const btnContainer = document.querySelector('.btn-container');
-const filterBtns = document.querySelectorAll('.filter-btn');
 
 // Display All Items When Page Loads
 window.addEventListener('DOMContentLoaded', function () {
@@ -153,12 +152,13 @@ function displayMenuButtons() {
         return `<button class="filter-btn" type="button" data-id=${category}>${category}</button>`;
     }).join("");
 
-    btnContainer.
-}
+   btnContainer.innerHTML = categoryBtns;
+   const filterBtns = document.querySelectorAll('.filter-btn');
+   console.log(filterBtns);
 
-// Filter Buttons
-filterBtns.forEach(function(btn) {
-    btn.addEventListener("click", function(e) {
+   // Filter Buttons
+    filterBtns.forEach(function(btn) {
+        btn.addEventListener("click", function(e) {
         const category = e.currentTarget.dataset.id;
         const menuCategory = menu.filter(function(menuItem) {
             if (menuItem.category === category) {
@@ -172,4 +172,7 @@ filterBtns.forEach(function(btn) {
             displayMenuItems(menuCategory);
         }
     });
-});
+}); 
+
+}
+

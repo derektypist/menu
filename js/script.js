@@ -139,6 +139,16 @@ function displayMenuItems(menuItems) {
     sectionCenter.innerHTML = displayMenu;
 }
 
+function displayMenuButtons() {
+    const categories = menu.reduce(function(values,item) {
+        if (!values.includes(item.category)) {
+            values.push(item.category);
+        }
+        return values;
+    },
+    "[all]");
+}
+
 // Filter Buttons
 filterBtns.forEach(function(btn) {
     btn.addEventListener("click", function(e) {

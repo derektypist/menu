@@ -109,7 +109,9 @@ const menu = [
     }
 ];
 
+// Get Parent Element
 const sectionCenter = document.querySelector('.section-center');
+const filterBtns = document.querySelectorAll('.filter-btn');
 
 // Display All Items When Page Loads
 window.addEventListener('DOMContentLoaded', function () {

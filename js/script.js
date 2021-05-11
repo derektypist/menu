@@ -111,6 +111,7 @@ const menu = [
 
 // Get Parent Element
 const sectionCenter = document.querySelector('.section-center');
+const btnContainer = document.querySelector('.btn-container');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
 // Display All Items When Page Loads
@@ -151,6 +152,8 @@ function displayMenuButtons() {
     const categoryBtns = categories.map(function(category) {
         return `<button class="filter-btn" type="button" data-id=${category}>${category}</button>`;
     }).join("");
+
+    btnContainer.
 }
 
 // Filter Buttons

@@ -122,12 +122,13 @@ window.addEventListener('DOMContentLoaded', function () {
 
 function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
+        // Format Price to 2 decimal places
         return `<article class="menu-item">
                     <img src=${item.img} class="photo" alt=${item.title} />
                     <div class="item-info">
                         <header>
                             <h4>${item.title}</h4>
-                            <h4 class="price">£${item.price}</h4>
+                            <h4 class="price">£${item.price.toFixed(2)}</h4>
                         </header>
                         <p class="item-text">${item.desc}</p>
                     </div>

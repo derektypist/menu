@@ -147,7 +147,7 @@ function displayMenuButtons() {
         }
         return values;
     },
-    "[all]");
+    ["all"]);
 
     const categoryBtns = categories.map(function(category) {
         return `<button class="filter-btn" type="button" data-id=${category}>${category}</button>`;

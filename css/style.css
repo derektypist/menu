@@ -1,0 +1,16 @@
+/* Global Styles */
+body {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    background: hsl(210,36%,96%);
+    color: hsl(209,61%,16%);
+}
+
+/* Menu */
+.menu {
+    padding: 5rem 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}

@@ -14,3 +14,35 @@ body {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #009B77;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-container {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+
+.filter-btn {
+    background: transparent;
+    border-color: #009B77;
+    font-size: 1rem;
+    font-family: inherit;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    padding: 0.375rem 0.75rem;
+    color: #009B77;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background: #009B77;
+    color: white;
+}

@@ -6,7 +6,7 @@ const menu = [
         "category": "breakfast",
         "price": 2.00,
         "img": "images/breakfast-1.JPG",
-        "desc": "A mix of raisins, apricots, banana chips and crunchy nuts"
+        "desc": "A mix of raisins, apricots, banana chips and crunchy nuts.  Available at Tesco."
     },
 
     {
@@ -15,7 +15,7 @@ const menu = [
         "category": "breakfast",
         "price": 2.00,
         "img": "images/breakfast-2.JPG",
-        "desc": "With Tropical Papaya and Sweet Pineapple"
+        "desc": "With Tropical Papaya and Sweet Pineapple.  Can also be served with blueberries, yoghurt and elderflower cordial."
     },
 
     {
@@ -24,7 +24,7 @@ const menu = [
         "category": "breakfast",
         "price": 0.47,
         "img": "images/breakfast-3.JPG",
-        "desc": "Chocolate Chip Cereal Bar for Breakfast On The Go"
+        "desc": "Chocolate Chip Cereal Bar for Breakfast On The Go.  Available at Tesco."
     },
 
     {
@@ -33,7 +33,7 @@ const menu = [
         "category": "lunch",
         "price": 0.55,
         "img": "images/lunch-1.JPG",
-        "desc": "Mild & Creamy"
+        "desc": "Mild & Creamy.  Can be cooked in the microwave or on the hob."
     },
 
     {
@@ -42,7 +42,7 @@ const menu = [
         "category": "lunch",
         "price": 0.98,
         "img": "images/lunch-2.JPG",
-        "desc": "In Rich Tomato Sauce"
+        "desc": "In Rich Tomato Sauce.  Can be cooked in the microwave or on the hob."
     },
 
     {
@@ -51,7 +51,7 @@ const menu = [
         "category": "lunch",
         "price": 1.00,
         "img": "images/lunch-3.JPG",
-        "desc": "Beef & Vegetable"
+        "desc": "Beef & Vegetable.  Can be cooked in the microwave or on the hob."
     },
 
     {
@@ -60,7 +60,7 @@ const menu = [
         "category": "lunch",
         "price": 1.50,
         "img": "images/lunch-4.JPG",
-        "desc": "Deep Dish 4 Cheese Pizza"
+        "desc": "Deep Dish 4 Cheese Pizza.  Can be cooked in the microwave or in a conventional oven."
     },
 
     {
@@ -69,7 +69,7 @@ const menu = [
         "category": "lunch",
         "price": 0.30,
         "img": "images/lunch-5.JPG",
-        "desc": "Full of Flavour"
+        "desc": "Full of Flavour.  Can be cooked in the microwave or on the hob."
     },
 
     {
@@ -78,7 +78,7 @@ const menu = [
         "category": "desserts",
         "price": 0.80,
         "img": "images/dessert-1.JPG",
-        "desc": "Available In Juice"
+        "desc": "In Juice.  Can be served on its own or with ice cream."
     },
 
     {
@@ -87,7 +87,7 @@ const menu = [
         "category": "desserts",
         "price": 0.85,
         "img": "images/dessert-2.JPG",
-        "desc": "Available In Juice"
+        "desc": "In Juice.  Can be served on its own or with ice cream."
     },
 
     {
@@ -96,7 +96,7 @@ const menu = [
         "category": "desserts",
         "price": 1.00,
         "img": "images/dessert-3.JPG",
-        "desc": "Available In Juice"
+        "desc": "In Juice.  Can be served on its own or with ice cream."
     },
 
     {
@@ -105,7 +105,7 @@ const menu = [
         "category": "desserts",
         "price": 1.75,
         "img": "images/dessert-4.JPG",
-        "desc": "Rich Chocolate Sponge with a Smooth Milk Chocolate Ganache Buttercream Filling"
+        "desc": "Rich Chocolate Sponge with a Smooth Milk Chocolate Ganache Buttercream Filling.  Available at Tesco."
     }
 ];
 

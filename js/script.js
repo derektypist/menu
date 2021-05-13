@@ -120,6 +120,7 @@ window.addEventListener('DOMContentLoaded', function () {
     
 });
 
+// Function to Display Menu Items
 function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
         // Format Price to 2 decimal places
@@ -140,6 +141,7 @@ function displayMenuItems(menuItems) {
     sectionCenter.innerHTML = displayMenu;
 }
 
+// Function to Display Menu Buttons
 function displayMenuButtons() {
     const categories = menu.reduce(function(values,item) {
         if (!values.includes(item.category)) {

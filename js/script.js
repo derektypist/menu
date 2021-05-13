@@ -78,7 +78,7 @@ const menu = [
         "category": "desserts",
         "price": 0.80,
         "img": "images/dessert-1.JPG",
-        "desc": "In Juice.  Can be served on its own or with ice cream."
+        "desc": "In Juice.  Can be served on its own or with ice cream.  Available at most supermarkets."
     },
 
     {
@@ -87,7 +87,7 @@ const menu = [
         "category": "desserts",
         "price": 0.85,
         "img": "images/dessert-2.JPG",
-        "desc": "In Juice.  Can be served on its own or with ice cream."
+        "desc": "In Juice.  Can be served on its own or with ice cream.  Available at most supermarkets."
     },
 
     {
@@ -96,7 +96,7 @@ const menu = [
         "category": "desserts",
         "price": 1.00,
         "img": "images/dessert-3.JPG",
-        "desc": "In Juice.  Can be served on its own or with ice cream."
+        "desc": "In Juice.  Can be served on its own or with ice cream.  Available at most supermarkets."
     },
 
     {
